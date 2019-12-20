@@ -242,7 +242,7 @@
       <keybind key="A-e">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>33%</width>
+        <width>34%</width>
         <height>100%</height>
         <x>66%</x>
         <y>0%</y>
