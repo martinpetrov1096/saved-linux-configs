@@ -4,5 +4,5 @@
         a. https://wiki.unraid.net/index.php/UnRAID_6/VM_Guest_Support#Enable_MSI_for_Interrupts_to_Fix_HDMI_Audio_Support
         b. https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF#Slowed_down_audio_pumped_through_HDMI_on_the_video_card
 
-2. GPU won't display even after enabled
-    Sol: Change GPU drivers to Nvidia Proprietary
+2. Laggy/Choppy animations
+    Sol: Force Full Composition Pipeline (nvidia 435.21 drivers)
