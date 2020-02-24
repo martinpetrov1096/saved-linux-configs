@@ -6,3 +6,8 @@
 
 2. Laggy/Choppy animations
     Sol: Force Full Composition Pipeline (nvidia 435.21 drivers)
+
+3. Fixing Vsync
+    Sol:
+        1.KDE Plasma: Scale Method: Smooth, Rendering backend: XRender, Tearing Prevention (vsync): Never, Keep window thumbnails: Only for Shown Windows. 
+        2. Ensure that "Force Full Composition Pipeline is enabled to handle vsync
