@@ -1,0 +1,4 @@
+1. KDE Plasma
+    a. Icon Theme: PlasmaXDark
+    b. Breeze Dark
+    
