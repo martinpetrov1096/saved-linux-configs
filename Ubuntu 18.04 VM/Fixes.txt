@@ -11,3 +11,9 @@
     Sol:
         1.KDE Plasma: Scale Method: Smooth, Rendering backend: XRender, Tearing Prevention (vsync): Never, Keep window thumbnails: Only for Shown Windows. 
         2. Ensure that "Force Full Composition Pipeline is enabled to handle vsync
+4. Fixing Audio Pop on audio playback when audio was paused for a while (Mainly affected Sub)
+    Sol: TLP (linux's power manager would turn off audio to save power)
+        1. sudo nano /etc/default/tlp
+        2, Set SOUND_POWER_SAVE_CONTROLLER=N
+        3. Possible, also might need to set SOUND_POWER_SAVE_ON_BAT=0 (prob not needed, but I also changed this)
+         
