@@ -16,4 +16,8 @@
         1. sudo nano /etc/default/tlp
         2, Set SOUND_POWER_SAVE_CONTROLLER=N
         3. Possible, also might need to set SOUND_POWER_SAVE_ON_BAT=0 (prob not needed, but I also changed this)
-         
+5. Fixing snap packages and other PATH's after zsh install
+    Sol: 
+        1. add following line to /etc/profile
+         emulate sh -c 'source /etc/profile'
+        2. run kquitapp5 plasmashell && kstart plasmashell 
